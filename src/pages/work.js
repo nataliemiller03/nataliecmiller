@@ -1,7 +1,6 @@
 import React from "react";
 import { workExperienceContent } from '../content';
 
-console.log(workExperienceContent);
 const Work = () => (
     <>
         <h1 className="page-title">Work Experience</h1>
