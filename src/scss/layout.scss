@@ -1,7 +1,7 @@
 @import './variables.scss';
 
 $desktop-font-base: 110px;
-$mobile-font-base: 70px;
+$mobile-font-base: 50px;
 $body-border-base: 40px;
 
 *:focus {
@@ -175,7 +175,10 @@ footer {
 
 #work {
     h2 {
-    font-weight: 400;
+        font-weight: 400;
+    }
+    h3 {
+        line-height: 1.25;
     }
     ul {
         margin-bottom: 80px;
@@ -195,7 +198,7 @@ footer {
             font-weight: 400;
             position: relative;
             margin-bottom: 20px;
-            font-size: $mobile-font-base / 3;
+            font-size: $mobile-font-base / 2.7;
             @include respond ($screen-sm) {
                 font-size: $desktop-font-base / 6;
 
@@ -287,7 +290,7 @@ footer {
         border: none;
         border-left: 2px solid $blue;
         padding: 13px 30px;
-        font-size: $mobile-font-base / 5;
+        font-size: $mobile-font-base / 3;
         letter-spacing: 1px;
         color: $blue;
         cursor: pointer;
