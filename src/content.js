@@ -12,10 +12,10 @@ const workExperienceContent = [
         employer: "Instrument - Portland, OR",
         title: "Tech Lead (2020-2021) | Senior Developer (2019 - 2020)",
         bullets: [
-            "Contribute to a wide range of development projects from full website redesigns to rapid prototypes. Primarily working in React with varying back-end technologies.",
-            "Actively mentor Junior and Mid-level developers ",
-            "Assist with strategy work, such as running feature prioritization workshops and creating landscape audits",
-            "Creating timelines, tickets, and priorities across long running projects",
+            "Contributed to a wide range of development projects from full website redesigns to rapid prototypes. Primarily working in React with varying back-end technologies.",
+            "Actively mentored Junior and Mid-level developers",
+            "Assisted with strategy work, such as running feature prioritization workshops and creating landscape audits",
+            "Created timelines, tickets, and priorities across long running projects",
         ],
     },
     {
@@ -72,7 +72,8 @@ const technologies = [
         items: [
             "Adobe Creative Suite: PhotoShop, inDesign, basic After Effects",
             "Sketch",
-            "Figma"
+            "Figma",
+            "Linearity Curve"
         ]
     }, {
         title: "Other Tech:",
